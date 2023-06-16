@@ -1,0 +1,108 @@
+html, body {
+	font-family: Arial;
+}
+
+.form {
+	background-color: rgb(238, 238, 238);
+	padding: 150px;
+	width: 1200px;
+}
+
+.wrap-screen-title {
+	text-align: center;
+}
+
+.screen-title {
+	display: inline-block;
+	padding: 10px;
+	background: linear-gradient(360deg, rgba(63,106,156,1) 0%, rgba(126,168,215,1) 100%);
+	color: white;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+label, .subtitle {
+	font-weight: bold;
+	display: block;
+}
+
+.w-full {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	background-color: rgb(238, 244, 247);
+}
+
+input {
+	background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(228,238,241,1) 100%);	
+}
+
+input, textarea, select {
+	border: 0.5px solid rgb(175, 197, 220);
+	outline: none;
+}
+
+button {
+	padding: 10px;
+	font-size: 1.17em;
+	font-weight: bold;
+	background: linear-gradient(360deg, rgba(63,106,156,1) 0%, rgba(126,168,215,1) 100%);
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.wrap-btn {
+	text-align: center;
+}
+
+.input-text {
+	padding: 5px 0px;
+	display: flex;
+	align-items: center;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.icon {
+	display: inline-block;
+	height: 20px;
+	cursor: pointer;
+}
+
+.icon img {
+	height: 100%;
+}
+
+input[disabled], textarea[disabled], select[disabled] {
+	background: transparent;
+}
+
+.icon[disabled] {
+	cursor: default;
+}
+
+.subtitle {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.message-error {
+	color: red;
+}
+
+.input-error {
+	background: linear-gradient(180deg, rgba(239,214,214,1) 0%, rgba(254,254,254,1) 100%);	
+	border-color: red;
+}
